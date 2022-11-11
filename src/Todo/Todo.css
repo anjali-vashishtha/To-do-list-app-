@@ -1,0 +1,83 @@
+.nav-bar {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5e5e5e;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+section {
+  width: 70%;
+  margin: auto;
+}
+.addBtn {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+.addBtn h1 {
+  color: #b47aea;
+}
+.form{
+    display:flex;
+    padding-top: 1rem;
+}
+.form .btnsubmit{
+  color: #fff;
+  background-color:#b47aea;
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem 1.6rem;
+  cursor: pointer;
+  margin-left: 0.8rem;
+
+}
+.todos {
+  margin-top: 2rem;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input[type="checkbox"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  content: none;
+}
+
+input[type="checkbox"]:before {
+  font-family: "FontAwesome";
+  content: url("../assests/Vector.png");
+  color: transparent !important;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1e9cea;
+  border-radius: 2px;
+
+  /* background: #fef2e0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black; */
+  /* margin-right: 7px; */
+}
+
+input[type="checkbox"]:checked:before {
+  background-color: #1e9cea;
+}
+.content {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5e5e5e;
+}
+input[type="text"]{
+    padding: 0.4rem 0.6rem;
+}
+
